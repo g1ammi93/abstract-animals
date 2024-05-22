@@ -1,7 +1,7 @@
 package animals;
 
 
-    public class Sparrow extends Animal {
+    public class Sparrow extends Animal implements CanFly {
 
 
 
@@ -19,5 +19,8 @@ package animals;
             System.out.println(name + " sta mangiando uvetta");
         }
 
-
+        @Override
+        public void fly() {
+            System.out.println("Sto volando");
+        }
     }
