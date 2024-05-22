@@ -22,6 +22,6 @@ package animals;
 
         @Override
         public void swim() {
-            System.out.println("Sto nuotando");
+            System.out.println("Sto nuotando!!!");
         }
     }
